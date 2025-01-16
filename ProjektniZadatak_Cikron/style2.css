@@ -1,0 +1,157 @@
+.hero-banner {
+    background-image: url('test4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-banner h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-banner p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+
+main {
+    padding: 20px;
+    background-color: white;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.team-item {
+    background-color: #fff;
+    border: 3px solid red; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.team-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; 
+}
+
+.team-item p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-icons {
+    margin: 20px 0;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: red;
+}
+.teams {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px;
+    justify-content: center; 
+}
+
+.team-item {
+    flex: 1 1 45%;
+    max-width: 45%; 
+    border: 2px solid red;
+    border-radius: 10px;
+    overflow: hidden; 
+    text-align: center;
+    background-color: #f9f9f9; 
+}
+
+.team-item img {
+    width: 100%; 
+    height: auto; 
+    border-bottom: 2px solid red; 
+}
+
+.team-item p {
+    padding: 10px;
+    color: #333; 
+}
